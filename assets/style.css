@@ -1,0 +1,105 @@
+#main {
+    position: relative;
+    z-index: 0;
+}
+
+
+.intro-message {
+position: absolute;
+width: 100%;
+height: 1500px;
+z-index: 1;
+background-color: white;
+
+}
+
+.introP {
+    padding-left:15%;
+    padding-right:15%;
+    padding-top:27%;
+    font-size: 25px;
+    z-index: 3;
+}
+
+.introImage1 {
+    position: absolute;
+    left: 40%;
+    z-index: 2;
+    
+}
+
+.introImage2 {
+    position: absolute;
+    height: 150px;
+    left: 60%;
+    top: 13%;
+    z-index: 2;
+    
+}
+
+.introImage3 {
+    position: absolute;
+    height: 60px;
+    left: 30%;
+    top: 22%;
+    z-index: 2;
+    transform: rotate(25deg);
+    
+}
+
+.jumbotron {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+
+.weapons-container {
+    padding-left: 100px;
+    
+   
+}
+
+.instruct {
+    padding-left:20px;
+    padding-right:20px;
+} 
+
+.weaponDamage {
+    font-size: 75px;
+    color:red;
+}
+
+#gun{
+    padding-top:15%;
+    width: 80%;
+}
+
+#bomb {
+    width: 80%;
+}
+
+#knife {
+    width: 80%;
+}
+
+#pineapple {
+    width: 80%;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.demonLife {
+    font-size: 75px;
+    color:red;
+}
+
+.wins {
+    font-size: 35px; 
+}
+
+.loses {
+    font-size: 35px; 
+}
